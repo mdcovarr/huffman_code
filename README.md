@@ -39,3 +39,11 @@ The 'uncompress' executable can be run with two arguments. The first argument is
 ```
 ./uncompress input-file.txt output-file.txt
 ```
+
+## Testing 
+
+Within the repo we have two reference executables
+1. refcompress
+2. refuncompress
+
+These executables were used in testing, to determine the accuracy and validity of my Huffman Coding algorithm implementation. They were also useful as a benchmark in how optimized my implementation is. 
