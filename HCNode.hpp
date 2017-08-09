@@ -25,6 +25,9 @@ public:
   HCNode* c1;  // pointer to '1' child
   HCNode* p;   // pointer to parent
 
+  /** Constructor for HCNode class in order to keep track 
+   *  of nodes initialized with given symbols
+   */
   HCNode(int count,
 	 byte symbol,
 	 HCNode* c0 = 0,
@@ -40,7 +43,7 @@ public:
 };
 
 /** For printing an HCNode to an ostream
- *  Possibly useful for debugging.
+ *  useful for debugging.
  */
 ostream& operator<<(ostream&, const HCNode&) __attribute__((weak)); // shut the linker up
 ostream& operator<<(ostream& stm, const HCNode& n) {

@@ -2,7 +2,6 @@
 //PID#: A12409694
 //Mahaela Johnson
 //PID#: A09635628
-//Assignment 2
 
 #include "HCNode.hpp"
 #include "HCTree.hpp"

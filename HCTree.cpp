@@ -53,7 +53,7 @@ void HCTree::build(const vector<int>& freqs)
 		
 	}
 	
-	//set the root to t he root of the huffman tree	
+	//set the root to the root of the huffman tree	
 	root = pq.top();
 	pq.pop();
 		
