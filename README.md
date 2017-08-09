@@ -1,17 +1,17 @@
-
-o How to Compress 
-ne Paragraph of project description goes here
+# Huffman Coding Project
+The Huffman Coding Project will help you with data compression and decompression. Even though disk space is alot cheaper now than ever before in history, there are still importance in efficiently and effectively compress information. It is possible to make a file significantly smaller without any loss of information whatsoever, leading to lossless compression. The Huffman coding was a technique introduced by David Huffman 1952. Huffman coding compression is still used today as part of JPEG image compression, mp3 audio compression, Unix file compression command pack, and other applications. 
 
 ## Getting Started
+These instructions will guide you on how to grab the repo, and use the huffman coding project to start compression and decompression files. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Grab the Repo
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+First we need to clone this repo
+1. Open Terminal 
+2. cd into the directory where you want to copy the repo 
+3. clone the repository
 ```
-Give examples
+git clone https://github.com/mdcovarr/huffman_code.git
 ```
 
 ### Installing
