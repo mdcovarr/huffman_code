@@ -14,76 +14,28 @@ First we need to clone this repo
 git clone https://github.com/mdcovarr/huffman_code.git
 ```
 
-### Installing
+### Makefile
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+Included with the repo, is a Makefile
+1. we need to make the porject with the following command
 ```
-Give the example
+make
 ```
 
-And repeat
+This will produce the executable files 'compress' and 'uncompress' which will be used in order to compress data or decompress compressed data.
+
+### Compressing
+
+the 'compress' executable can be run with two arguments. The first argument is the name of the input file you would like to compress. The second argument is the name of the output file where you want the compress data to be placed. The following line below is an example:
 
 ```
-until finished
+./compress input-file.txt output-file.txt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Decompressing
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+The 'uncompress' executable can be run with two arguments. The first argument is the name of the input file. The input file would be a previously compressed file. The second argument is the name of the output file where you want to output the decompressed data. The following line below is an example: 
 
 ```
-Give an example
+./uncompress input-file.txt output-file.txt
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
-

@@ -1,4 +1,3 @@
-# A simple makefile for CSE 100 P3
 
 CC=g++
 CXXFLAGS=-std=c++11 -g
